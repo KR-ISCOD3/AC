@@ -1,0 +1,33 @@
+.container > main > .row-card {
+    width: 100%;
+    padding: 40px 180px;
+    background-color: var(--body-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between ;
+}
+
+.container > main > .row-card > .card{
+    width: 47%;
+    /* height: 550px ; */
+    margin: 20px 0;
+    text-align: center;
+}
+.container > main > .row-card > .card > img{
+    width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.container > main > .row-card > .card> a{
+    color: #A9CBF1;
+    font-family: "Fira Sans", sans-serif;
+    font-size: 15.2px;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container > main > .row-card > .card:hover > a{
+    text-decoration: underline;
+    color: white;
+}
